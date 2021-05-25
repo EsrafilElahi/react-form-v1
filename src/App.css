@@ -1,38 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 140, 255, 0.96),
+    rgba(0, 255, 234, 0.74)
+  );
+  height: 100vh;
+  font-family: 'Mate SC', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  color: rgba(112, 3, 214, 0.822);
+  height: 100px;
+  padding: 20px;
+  font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 25px;
+  border: 3px solid rgb(7, 232, 240);
+  max-width: 70%;
+  width: 29rem;
 }
 
-.App-link {
-  color: #61dafb;
+.user-div {
+  padding: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  font-size: 19px;
+  color: blue;
+  font-weight: 300;
+}
+
+input {
+  padding: 1px;
+  margin: 10px;
+  border: 2px solid rgb(2, 245, 233);
+  border-radius: 5px;
+  height: 25px;
+  transition: .5s ease-out;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.email-div {
+  padding: 8px;
+}
+
+.password-div {
+  padding: 7px;
+}
+
+.policy-div {
+  padding: 7px;
+}
+
+.have-account-div {
+  padding: 7px;
+}
+
+.btn {
+  margin: 10px;
+  padding: 5px;
+  width: 120px;
+  font-size: 19px;
+  height: 43px;
+  color: blue;
+  border-radius: 10px;
+  border: 2px solid rgb(2, 245, 233);
+  cursor: pointer;
+  transition: 0.5s ease-out;
+  background-color: rgba(2, 245, 233, 0.521);
+  font-family: 'Mate SC', serif;
+}
+
+.btn:hover {
+  background-color: rgba(2, 245, 233, 0.822);
+}
+
+a {
+  cursor: pointer;
+  color: rgba(112, 3, 214, 0.822);
+  transition: 0.5s ease-out;
+}
+
+a:hover {
+  color: rgba(132, 6, 182, 0.822);
 }
