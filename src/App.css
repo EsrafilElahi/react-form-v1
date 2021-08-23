@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
 
 * {
   margin: 0;
@@ -8,6 +8,9 @@
 
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
@@ -17,7 +20,7 @@ body {
     rgba(0, 255, 234, 0.74)
   );
   height: 100vh;
-  font-family: 'Mate SC', serif;
+  font-family: "Mate SC", serif;
 }
 
 .title {
@@ -60,7 +63,7 @@ input {
   border: 2px solid rgb(2, 245, 233);
   border-radius: 5px;
   height: 25px;
-  transition: .5s ease-out;
+  transition: 0.5s ease-out;
 }
 
 .checkbox {
@@ -96,7 +99,7 @@ input {
   cursor: pointer;
   transition: 0.5s ease-out;
   background-color: rgba(2, 245, 233, 0.521);
-  font-family: 'Mate SC', serif;
+  font-family: "Mate SC", serif;
 }
 
 .btn:hover {

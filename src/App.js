@@ -1,17 +1,17 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import Register from './Component/Register'
 import Login from './Component/Login'
 
-
 import './App.css'
 
-function App () {
+
+function App() {
   const [registerAllow, setRegisterAllow] = useState(true)
 
   return (
     <div className='App'>
       {
-        registerAllow ? <Register setRegisterAllow={setRegisterAllow} /> : <Login />
+        registerAllow ? <Register setRegisterAllow={setRegisterAllow} /> : <Login setRegisterAllow={setRegisterAllow} />
       }
     </div>
   )

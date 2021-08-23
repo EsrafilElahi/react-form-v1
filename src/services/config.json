@@ -1,0 +1,4 @@
+{
+    "toplearnapi": "http://localhost:8000/auth",
+    "localapi": "http://localhost:4000"
+}
